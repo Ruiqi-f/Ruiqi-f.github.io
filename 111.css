@@ -1,0 +1,23 @@
+
+h1{
+    color:pink;
+}
+h1{
+    text-align: center;  
+  }
+  #container{
+      margin: auto;
+      width:70%;
+  }
+  img{
+    width: 90%;
+}
+h2{
+    color:rgb(0, 153, 255);
+}
+h3{
+    color:rgb(230, 215, 8);
+}
+h4{
+    color:black;
+}
