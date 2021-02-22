@@ -1,0 +1,81 @@
+h1{
+    color:rgb(91, 151, 79);
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align:left ;  
+  }
+  h2{
+    color:rgb(128, 156, 115);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+body {
+  background: #FDD692;
+}
+
+.container {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
+
+
+.clock {
+  position: absolute;
+}
+
+.analog {
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #FFF;
+  border: 20px solid #EC7357;
+  border-radius: 100%;
+}
+
+.mid {
+  z-index: 1;
+  position: absolute;
+  top: 105px;
+  left: 105px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #754F44;
+}
+
+.hour {
+  z-index: 1;
+  position: absolute;
+  left: 120px;
+  top: 123px;
+  background: #754F44;
+  width: 10px;
+  height: 70px;
+  border-radius: 20px;
+  transform-origin: top;
+}
+
+.minute {
+  z-index: 5;
+  position: absolute;
+  left: 115px;
+  top: 123px;
+  background: #754F44;
+  width: 8px;
+  height: 85px;
+  border-radius: 20px;
+  transform-origin: top;
+}
+
+
+/* source: How to draw a clock with css (https://blog.prototypr.io/how-i-started-drawing-css-images-3fd878675c89) */
